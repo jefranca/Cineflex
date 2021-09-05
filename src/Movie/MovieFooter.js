@@ -1,8 +1,10 @@
-export default function MovieFooter(){
+export default function MovieFooter({title, posterURL}){
     return(
         <footer>
-            <img src="/images/image 3.png" />
-            <h3>EnolaHolmes</h3>
+            <div>
+            <img src={posterURL} alt={title} />
+            <h3>{title}</h3>
+            </div>
         </footer>
     )
 }
