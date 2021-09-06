@@ -16,7 +16,7 @@ export default function App(){
                 <Route path="/filme/:idMovie/sessao/:idSession" exact>
                     <Session />
                 </Route>
-                <Route path="/filme/sessao/sucesso" exact>
+                <Route path="/filme/:idMovie/sessao/:idSession/sucesso" exact>
                     <Sucess />
                 </Route>
             </Switch>

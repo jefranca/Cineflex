@@ -20,7 +20,6 @@ export default function SessionMain(){
             setMovie(response.data.movie)
             setDay(response.data.day)
             setTime(response.data.name)
-            console.log(response.data)
         })
     },[])
 
@@ -50,7 +49,7 @@ export default function SessionMain(){
                         </div>
                     </div>
                     <SessionInfos />
-                    <button className="reserve-seat">Reservar Assento(s)</button>
+                    <Link to={`/filme/${idMovie}/sessao/${idSession}/sucesso`}><button className="button">Reservar Assento(s)</button></Link>
                     <SessionFooter title={movie.title} posterURL={movie.posterURL} weekday={day.weekday} time={time} />    
             </div>
     
