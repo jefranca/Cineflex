@@ -1,4 +1,3 @@
-import "../css/sessionfooter.css"
 export default function SessionFooter({title, posterURL, weekday, time}){
     return(
         <footer>

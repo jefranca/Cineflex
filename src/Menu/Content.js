@@ -14,7 +14,7 @@ export default function Content(){
         <div className="content">
             <h1>Selecione o filme</h1>
             <div className="movies">
-                {movies.map((movie) => <Link to={"/filme/" + movie.id}> <img src={movie.posterURL} alt={movie.title} /></Link>)}
+                {movies.map((movie) => <Link to={"/filme/" + movie.id}> <button> <img src={movie.posterURL} alt={movie.title} />  </button> < /Link>)}
             </div>
             
         </div>
