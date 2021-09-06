@@ -7,11 +7,19 @@ import Sucess from "./Sucess/Sucess";
 export default function App(){
     const [cpf, setCpf]=useState("")
     const [name, setName]=useState("")
+    const [selectedSeat, setSelectedSeat]= useState([])
     function savecpf(e){
         setCpf(e)
     }
     function savename(i){
         setName(i)
+    }
+    function saveseat(x){
+        selectedSeat.push(x)
+    }
+    function saveseats(){
+        setSelectedSeat(selectedSeat)
+        console.log(selectedSeat)
     }
     
 
@@ -25,10 +33,10 @@ export default function App(){
                     <Movie />
                 </Route>
                 <Route path="/filme/:idMovie/sessao/:idSession" exact>
-                    <Session savecpf={savecpf} savename={savename}/>
+                    <Session savecpf={savecpf} savename={savename} saveseat={saveseat} saveseats={saveseats}/>
                 </Route>
                 <Route path="/filme/:idMovie/sessao/:idSession/sucesso" exact>
-                    <Sucess cpf={cpf} name={name}/>
+                    <Sucess cpf={cpf} name={name} selectedSeat={selectedSeat}/>
                 </Route>
             </Switch>
             

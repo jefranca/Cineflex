@@ -7,12 +7,13 @@ import SessionInfos from "./SessionInfos";
 import SessionFooter from "./SessionFooter";
 import "../css/session.css";
 
-export default function SessionMain({savecpf, savename}){
+export default function SessionMain({savecpf, savename, saveseat, saveseats}){
     const [seats, setSeats]= useState(undefined)
     const [movie, setMovie]= useState([])
     const [day, setDay]= useState([])
     const [time, setTime]= useState([])
     const {idMovie, idSession} = useParams()
+    
     useEffect(() => {
         const promise=axios.get(`https://mock-api.bootcamp.respondeai.com.br/api/v2/cineflex/showtimes/${idSession}/seats`)
         promise.then((response) =>{
@@ -20,10 +21,9 @@ export default function SessionMain({savecpf, savename}){
             setMovie(response.data.movie)
             setDay(response.data.day)
             setTime(response.data.name)
+            console.log(response.data.seats)
         })
     },[])
-
-    
 
     if(seats){
         return(
@@ -32,7 +32,7 @@ export default function SessionMain({savecpf, savename}){
 
                     <h1>Selecione o(s) assento(s)</h1>
                     <div className="seats ">
-                        {seats.map((seat) => <Seat name={seat.name} isAvailable={seat.isAvailable}/>)}
+                        {seats.map((seat) => <Seat name={seat.name} isAvailable={seat.isAvailable} idSeat={seat.id} saveseat={saveseat} saveseats={saveseats}/>)}
                     </div>
                     <div className="seats legend">
                         <div>
@@ -49,7 +49,7 @@ export default function SessionMain({savecpf, savename}){
                         </div>
                     </div>
                     <SessionInfos savecpf={savecpf} savename={savename}/>
-                    <Link to={`/filme/${idMovie}/sessao/${idSession}/sucesso`}><button className="button">Reservar Assento(s)</button></Link>
+                    <Link to={`/filme/${idMovie}/sessao/${idSession}/sucesso`}><button className="button" onClick={saveseats}>Reservar Assento(s)</button></Link>
                     <SessionFooter title={movie.title} posterURL={movie.posterURL} weekday={day.weekday} time={time} />    
             </div>
     
