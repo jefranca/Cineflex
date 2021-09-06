@@ -4,6 +4,7 @@ import MovieFooter from "./MovieFooter"
 import { useEffect, useState } from 'react';
 import axios from "axios";
 import { useParams } from 'react-router-dom';
+import "../css/movie.css"
 export default function Movie(){
     let [sessions, setSessions] = useState(undefined)
     const {idMovie} = useParams()

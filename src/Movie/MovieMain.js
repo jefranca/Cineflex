@@ -5,7 +5,7 @@ export default function MovieMain({days, idMovie}){
         <h1>Selecione o horário</h1>
         {days.map((day) => {
             return(
-                <div className="days">
+                <div className="day">
                     <h2>{day.weekday} - {day.date}</h2>
                     <MovieTime showtime={day.showtimes} idMovie={idMovie}/>
                 </div>

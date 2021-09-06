@@ -1,0 +1,30 @@
+.movie-main{
+    margin: 67px 0 127px 12px;
+    display: flex;
+    flex-direction: column;
+}
+.movie-main h1{
+    margin: 20px auto;
+    color: #293845;
+    font-size: 24px;
+}
+.movie-main h2{
+    color: #293845;
+    font-size: 20px;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 23px;
+    height: 80px;
+    justify-content: space-between;
+}
+.day button{
+    background-color: #E8833A;
+    width: 83px;
+    height: 43px;
+    margin-right: 10px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
