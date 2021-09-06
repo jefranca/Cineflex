@@ -1,10 +1,10 @@
 import Header from "../Header"
 import SessionMain from "./SessionMain"
-export default function Session(){
+export default function Session({savecpf, savename}){
     return(
         <div>
             <Header />
-            <SessionMain />
+            <SessionMain savecpf={savecpf} savename={savename}/>
         </div>
     )
 }

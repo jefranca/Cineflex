@@ -1,9 +1,20 @@
+import { useState } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Menu from "./Menu/Menu";
 import Movie from "./Movie/Movie";
 import Session from "./Session/Session";
 import Sucess from "./Sucess/Sucess";
 export default function App(){
+    const [cpf, setCpf]=useState("")
+    const [name, setName]=useState("")
+    function savecpf(e){
+        setCpf(e)
+    }
+    function savename(i){
+        setName(i)
+    }
+    
+
     return(
         <BrowserRouter>
             <Switch>
@@ -14,10 +25,10 @@ export default function App(){
                     <Movie />
                 </Route>
                 <Route path="/filme/:idMovie/sessao/:idSession" exact>
-                    <Session />
+                    <Session savecpf={savecpf} savename={savename}/>
                 </Route>
                 <Route path="/filme/:idMovie/sessao/:idSession/sucesso" exact>
-                    <Sucess />
+                    <Sucess cpf={cpf} name={name}/>
                 </Route>
             </Switch>
             

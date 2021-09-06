@@ -7,7 +7,7 @@ import SessionInfos from "./SessionInfos";
 import SessionFooter from "./SessionFooter";
 import "../css/session.css";
 
-export default function SessionMain(){
+export default function SessionMain({savecpf, savename}){
     const [seats, setSeats]= useState(undefined)
     const [movie, setMovie]= useState([])
     const [day, setDay]= useState([])
@@ -48,7 +48,7 @@ export default function SessionMain(){
                             <div className="unavailable seat"></div>
                         </div>
                     </div>
-                    <SessionInfos />
+                    <SessionInfos savecpf={savecpf} savename={savename}/>
                     <Link to={`/filme/${idMovie}/sessao/${idSession}/sucesso`}><button className="button">Reservar Assento(s)</button></Link>
                     <SessionFooter title={movie.title} posterURL={movie.posterURL} weekday={day.weekday} time={time} />    
             </div>
