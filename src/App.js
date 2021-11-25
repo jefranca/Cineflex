@@ -4,7 +4,6 @@ import Header from "./Header";
 export default function App(){
     const [cpf, setCpf]=useState("")
     const [name, setName]=useState("")
-    const [selectedSeat, setSelectedSeat]= useState([])
 
     return(
         <>

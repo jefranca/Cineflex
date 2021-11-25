@@ -1,18 +1,23 @@
 import { useState } from 'react';
-export default function Seat({name, isAvailable, idSeat, saveseat}){
-
+export default function Seat({name, isAvailable,idSeat, setSelectedSeats, selectedSeats}){
+    
     const [selected, setSelected]= useState("")
     
     function selecting(idSeat){
         if(selected === ""){
             setSelected("selected")
-            saveseat(idSeat)
+            setSelectedSeats([...selectedSeats, idSeat])
+            
         }else{
             setSelected("");
+            let index = selectedSeats.indexOf(idSeat)
+            if( index > -1){
+                selectedSeats.splice(index,1);
+            }
         }
     }
 
-    
+    console.log(selectedSeats)
     
     if(isAvailable){
         return(
