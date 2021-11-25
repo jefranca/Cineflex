@@ -13,7 +13,7 @@ export default function Movie(){
         promise.then((response) =>{
             setSessions(response.data)
         })
-    },[])
+    },[idMovie])
     if(sessions)
     {
         return(

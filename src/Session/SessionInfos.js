@@ -1,4 +1,3 @@
-import Header from "../Header";
 
 export default function SessionInfos({savecpf, savename}){
     return(

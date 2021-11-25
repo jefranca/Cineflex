@@ -23,7 +23,7 @@ export default function SessionMain({savecpf, savename, saveseat, saveseats}){
             setTime(response.data.name)
             console.log(response.data.seats)
         })
-    },[])
+    },[idSession])
 
     if(seats){
         return(

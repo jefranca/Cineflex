@@ -40,23 +40,6 @@ footer button{
     align-items: center;
     margin-top:  67px;
 }
-h1{
-    font-size: 24px;
-    color: #293845;
-    margin: 20px 0;
-}
-.movies{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.movies button{
-    margin: 10px 10px;
-}
-.movies img{
-    padding: 5px;
-    width: 130px;
-}
 a{
     color: inherit;
     text-decoration: inherit;
