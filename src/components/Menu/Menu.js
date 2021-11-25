@@ -1,9 +1,7 @@
 import { useNavigate } from 'react-router';
 import { useEffect, useState } from 'react';
 import styled from "styled-components";
-import { getMovies } from '../services/api.services';
-
-import "../css/style.css"
+import { getMovies } from '../../services/api.services';
 
 export default function Content(){
     const navigate=useNavigate();

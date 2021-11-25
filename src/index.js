@@ -2,8 +2,8 @@ import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Outlet } from "react-router";
 import App from "./App";
-import Menu from "./Menu/Menu";
-import Movie from "./Movie/Movie";
+import Menu from "./components/Menu/Menu";
+import Movie from "./components/Movie/Movie";
 import Session from "./Session/Session";
 import Sucess from "./Sucess/Sucess";
 
