@@ -16,8 +16,6 @@ export default function Seat({name, isAvailable,idSeat, setSelectedSeats, select
             }
         }
     }
-
-    console.log(selectedSeats)
     
     if(isAvailable){
         return(
