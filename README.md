@@ -1,6 +1,5 @@
 # Cineflex
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/jefranca/Projeto_09_cineflex?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/jefranca/Projeto_09_cineflex?style=for-the-badge)
@@ -13,8 +12,6 @@
 
 ## 💻 Prerequisite
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Npm
 * Any browser
 
@@ -27,7 +24,7 @@ Clone the repository
 git clone https://github.com/jefranca/Projeto_09_cineflex.git
 ```
 
-Entre na pasta e run the command to install and update all dependencies from the package
+Run the command to install and update all dependencies from the package
 ```
 npm i
 ```
@@ -47,7 +44,6 @@ https://projeto-09-cineflex-umber.vercel.app
 
 
 ## 📫 Contributing to Cineflex
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 To contribute, follow this steps:
 
 1. Fork this repository.
@@ -64,7 +60,7 @@ If you need help, try do read the doc from GitHub at [como criar uma solicitaç�
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/87549949?s=400&u=6d0fc77e66618e9da7b5dec5ce3f0b1b236aa10a&v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/87549949?s=400&u=6d0fc77e66618e9da7b5dec5ce3f0b1b236aa10a&v=4" width="100px;" alt="Foto do jefranca no GitHub"/><br>
         <sub>
           <b>Jean França</b>
         </sub>
