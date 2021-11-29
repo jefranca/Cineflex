@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Cineflex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-## Available Scripts
+![GitHub repo size](https://img.shields.io/github/repo-size/jefranca/Projeto_09_cineflex?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/jefranca/Projeto_09_cineflex?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/jefranca/Projeto_09_cineflex?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jefranca/Projeto_09_cineflex?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jefranca/Projeto_09_cineflex?style=for-the-badge)
 
-In the project directory, you can run:
+> Cineflex is a Single-Page Application project where the client can buy tickets to watch a movie at the cinema
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Prerequisite
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Npm
+* Any browser
 
-### `npm test`
+## 🚀 Installing Cineflex 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install Cineflex, follow the steps:
 
-### `npm run build`
+Clone the repository
+```
+git clone https://github.com/jefranca/Projeto_09_cineflex.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Entre na pasta e run the command to install and update all dependencies from the package
+```
+npm i
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To start
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ☕ Testing Cineflex at the browser
 
-### `npm run eject`
+Get in
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+https://projeto-09-cineflex-umber.vercel.app
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📫 Contributing to Cineflex
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+To contribute, follow this steps:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Fork this repository.
+2. Create a new branch: `git checkout -b <branch_name>`.
+3. Commit your changes: `git commit -m '<mensage_commit>'`
+4. Send to the original branch: `git push origin <nome_do_projeto> / <local>`
+5. Create the pull request.
 
-## Learn More
+If you need help, try do read the doc from GitHub at [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Made By
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/87549949?s=400&u=6d0fc77e66618e9da7b5dec5ce3f0b1b236aa10a&v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Jean França</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
