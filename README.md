@@ -8,55 +8,55 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jefranca/Projeto_09_cineflex?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jefranca/Projeto_09_cineflex?style=for-the-badge)
 
-> Cineflex é um site utilizado para comprar ingressos para filmes em exibção no cinema.
+> Cineflex is a Single-Page Application project where the client can buy tickets to watch a movie at the cinema
 
 
-## 💻 Pré-requisitos
+## 💻 Prerequisite
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Npm
-* Navegador de sua escolha
+* Any browser
 
-## 🚀 Instalando Cineflex para usar na maquina
+## 🚀 Installing Cineflex 
 
-Para instalar o Cineflex, siga estas etapas:
+To install Cineflex, follow the steps:
 
-Clone o Repositorio
+Clone the repository
 ```
 git clone https://github.com/jefranca/Projeto_09_cineflex.git
 ```
 
-Entre na pasta e rode o comando para instalar e atualizar todas as dependencias do projeto
+Entre na pasta e run the command to install and update all dependencies from the package
 ```
 npm i
 ```
 
-Para inicializar
+To start
 ```
 npm start
 ```
 
-## ☕ Testando Cineflex no navegador
+## ☕ Testing Cineflex at the browser
 
-Para usar Cineflex, entre em
+Get in
 
 ```
 https://projeto-09-cineflex-umber.vercel.app
 ```
 
 
-## 📫 Contribuindo para Cineflex
+## 📫 Contributing to Cineflex
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com Cineflex, siga estas etapas:
+To contribute, follow this steps:
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+1. Fork this repository.
+2. Create a new branch: `git checkout -b <branch_name>`.
+3. Commit your changes: `git commit -m '<mensage_commit>'`
+4. Send to the original branch: `git push origin <nome_do_projeto> / <local>`
+5. Create the pull request.
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+If you need help, try do read the doc from GitHub at [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Made By
 
